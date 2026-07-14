@@ -1,6 +1,10 @@
 # 📖 Codebook - Schema dei Metadati / Metadata Schema
 
-Questo documento descrive dettagliatamente la struttura del dataset, definendo le classi, il significato di ciascuna variabile, i valori ammessi, le regole di codifica e i riferimenti agli standard e alle linee guida europee.
+Questo schema dei metadati definisce l'architettura dei dati utilizzata per la strutturazione del dataset. Le variabili e le classi qui descritte sono state modellate a partire dai principali regolamenti, linee guida e documentazioni ufficiali dell'Unione Europea nell'ambito del patrimonio, delle statistiche e delle politiche culturali (tra cui *Eurostat, ESSnet-Culture* e *Creative Europe*).
+
+Sebbene nel presente framework tali metriche siano applicate verticalmente alla mappatura e normalizzazione dei festival fotografici italiani (caso studio), l'intera architettura dell'informazione è stata progettata secondo criteri di modularità e flessibilità. Ciò rende il modello completamente scalabile e replicabile per la catalogazione di qualsiasi altra tipologia di festival o evento culturale sul web.
+
+La tabella seguente descrive nel dettaglio il dizionario dei dati: definisce le classi logiche, i vincoli di tipo delle variabili, i valori ammessi, le regole rigorose di codifica (utilizzate anche per la validazione degli output dell'IA) e le relative fonti istituzionali di riferimento.
 
 <table style="width:100%; border-collapse: collapse; text-align: left;">
   <thead>
