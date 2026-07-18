@@ -1,4 +1,4 @@
-## 📊 Accesso al Dataset & Esportazione Live / Dataset Access & Live Export
+## Accesso al Dataset & Esportazione Live / Dataset Access & Live Export
 
 ---
 
