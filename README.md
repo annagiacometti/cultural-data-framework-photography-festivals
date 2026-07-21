@@ -61,7 +61,7 @@ The project delivers three main integrated components:
 
 ## Link Rapidi e Accesso ai Dati / Quick Links
 
-* 📖 **[Leggi il Codebook / Read the Codebook](./codebook.md)**
+* 📖 **[Leggi il Codebook / Read the Codebook](.dataset/codebook.md)**
 * 🌐 **[Esplora il Dataset Live su Google Sheets / Live Interactive Sheet](https://docs.google.com/spreadsheets/d/1Mqnbuf3mBJQ5Z3N5Tah1VuAr0akWJmj9OtJMr6WqqB4/edit?gid=822136368#gid=822136368)**
 * 📥 **[Scarica il Dataset Live (.CSV) / Direct CSV Export](https://docs.google.com/spreadsheets/d/1Mqnbuf3mBJQ5Z3N5Tah1VuAr0akWJmj9OtJMr6WqqB4/export?format=csv&gid=822136368)**
 * 📥 **[Scarica il Dataset Live (.XLSX) / Direct Excel Export](https://docs.google.com/spreadsheets/d/1Mqnbuf3mBJQ5Z3N5Tah1VuAr0akWJmj9OtJMr6WqqB4/export?format=xlsx&gid=822136368)**
