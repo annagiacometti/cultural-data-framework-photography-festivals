@@ -1,0 +1,93 @@
+class,variable_name,description,data_type,values,coding_rules,source
+IDENTITY,festival_id,Identificativo univoco del festival,Stringa,Formato: FEST000001,Assegnare un identificativo univoco progressivo secondo il formato FEST000001.,-
+,festival_name,Denominazione ufficiale del festival,Stringa,Testo libero,Utilizzare la denominazione ufficiale del festival; evitare sottotitoli o varianti non costanti tra le fonti.,-
+LOCATION,city_name,Comune principale di svolgimento del festival,Stringa,Denominazione ufficiale ISTAT del comune,Inserire esclusivamente il comune principale di svolgimento. Nei casi di festival multi-sede o itineranti utilizzare la sede legale o l'hub organizzativo principale e documentare eventuali eccezioni nella variabile notes.,"ISTAT, Codici delle unità amministrative. Aggiornamento al 21 febbraio 2026, 2026, https://www.istat.it/classificazione/codici-dei-comuni-delle-province-e-delle-regioni/ (ultimo accesso luglio 2026)."
+,city_geonames_id,Identificativo GeoNames associato al comune,Intero,Identificativo GeoNames,Associare l'identificativo GeoNames corrispondente al comune selezionato.,"GeoNames, GeoNames Data, IT.zip, 2026, https://download.geonames.org/export/dump/ (ultimo accesso luglio 2026)."
+,region,Regione italiana di riferimento del festival,Stringa,Denominazione ufficiale ISTAT della regione,Derivare automaticamente dalla città selezionata utilizzando le denominazioni ufficiali ISTAT.,"ISTAT, Codici delle unità amministrative. Aggiornamento al 21 febbraio 2026, 2026, https://www.istat.it/classificazione/codici-dei-comuni-delle-province-e-delle-regioni/ (ultimo accesso luglio 2026)."
+,region_nuts,Codice NUTS2 della regione,Stringa,Codice Eurostat NUTS2,Associare il codice Eurostat NUTS2 corrispondente alla regione.,"Eurostat, NUTS - NOMENCLATURE OF TERRITORIAL UNITS FOR STATISTICS. Overview, s.d., https://ec.europa.eu/eurostat/web/nuts (ultimo accesso luglio 2026)."
+,country_iso,Codice ISO 3166-1 alpha-2 del Paese,Stringa,Codice ISO 3166-1 alpha-2,Utilizzare il codice ISO 3166-1 alpha-2 del Paese di svolgimento. Nel presente dataset il valore è sempre IT.,"ISO, ISO 3166. Country Codes, s.d.-a, https://www.iso.org/iso-3166-country-codes.html (ultimo accesso luglio 2026)."
+TIME,first_edition_year,Anno della prima edizione del festival,Intero ,anno / unknown,"Estrarre da sito ufficiale o fonti affidabili. Se non presente o non affidabile, inserire unknown.","YOUROPE – The European Festival Association, ILMC, European Festival Report 2025, Drury J. (a cura di), IQ Magazine, 2026, https://yourope.org/know-how/european-festival-report-2025-out-now/ (ultimo accesso luglio 2026)."
+,festival_status,Stato di attività del festival,Enumerazione,active / inactive / defunct / unknown,"- active: almeno un'edizione negli ultimi 18-24 mesi oppure annuncio ufficiale della prossima edizione (date o open call)
+- inactive: il festival non ha svolto edizioni negli ultimi 2 anni, ma non ha dichiarato la chiusura e i canali social/sito sono ancora online (anche se fermi)
+- defunct: esiste una dichiarazione ufficiale di chiusura 
+- unknown: mancanza di dati verificabili o presenza di informazioni contrastanti","YOUROPE – The European Festival Association, ILMC, European Festival Report 2025, Drury J. (a cura di), IQ Magazine, 2026, https://yourope.org/know-how/european-festival-report-2025-out-now/ (ultimo accesso luglio 2026)."
+,duration_days ,"Durata dell'edizione più recente del festival, espressa in giorni",Intero,numero / unknown,"Si contano sia il giorno d'inizio che quello di fine (data fine - data inizio + 1)
+- Se il festival prevede un evento inaugurale seguito da mostre aperte al pubblico, considerare l'intero periodo di apertura
+- Vengono contati i giorni di durata dell'edizione più recente
+- unknown: se non vi sono date precise","YOUROPE – The European Festival Association, ILMC, European Festival Report 2025, Drury J. (a cura di), IQ Magazine, 2026, https://yourope.org/know-how/european-festival-report-2025-out-now/ (ultimo accesso luglio 2026)."
+,recurrence ,Periodicità della manifestazione,Enumerazione,annual / biennial / mixed / unknown,"- annual: il festival si svolge regolarmente ogni anno
+- biennial: il festival si svolge regolarmente ogni due anni
+- mixed: il festival ha cambiato cadenza nel tempo
+- unknown: non vi sono sufficienti informazioni","YOUROPE – The European Festival Association, ILMC, European Festival Report 2025, Drury J. (a cura di), IQ Magazine, 2026, https://yourope.org/know-how/european-festival-report-2025-out-now/ (ultimo accesso luglio 2026)."
+"DIGITAL
+ PRESENCE",website_official,"URL del sito web ufficiale del festival, se disponibile",Stringa ,URL / null,Inserire esclusivamente il sito web ufficiale della manifestazione.,"European Commission, Creative Europe 2021-2022: Monitoring report, Luxembourg, Publications Office of the European Union, 2023, https://doi.org/10.2759/561008."
+,website_secondary,URL di una fonte web secondaria di riferimento,Stringa,URL / null,Compilare solo in assenza di un sito web ufficiale.,"European Commission, Creative Europe 2021-2022: Monitoring report, Luxembourg, Publications Office of the European Union, 2023, https://doi.org/10.2759/561008."
+,website_active ,Stato di attività del sito web ufficiale,Booleano,0 / 1,"1 = sito ufficiale raggiungibile e aggiornato 
+0 = sito non raggiungibile, non aggiornato o assente","European Commission, Creative Europe 2021-2022: Monitoring report, Luxembourg, Publications Office of the European Union, 2023, https://doi.org/10.2759/561008."
+,website_languages ,Lingue disponibili nel sito web ufficiale/secondario,Enumerazione,IT_EN / IT_ONLY / MULTI,"IT_EN: disponibile lingua inglese oltre l'italiano
+IT_ONLY: solo lingua italiana
+MULTI: disponibili altre lingue, oltre inglese e italiano","European Commission, Creative Europe 2021-2022: Monitoring report, Luxembourg, Publications Office of the European Union, 2023, https://doi.org/10.2759/561008."
+,instagram,URL del profilo Instagram ufficiale,Stringa,URL / null,Inserire solo profilo ufficiale,"European Commission, Creative Europe 2021-2022: Monitoring report, Luxembourg, Publications Office of the European Union, 2023, https://doi.org/10.2759/561008."
+,facebook ,URL del profilo Facebook ufficiale,Stringa,URL / null,Inserire solo profilo ufficiale,"European Commission, Creative Europe 2021-2022: Monitoring report, Luxembourg, Publications Office of the European Union, 2023, https://doi.org/10.2759/561008."
+,digital_presence_score,Indicatore composito del livello di presenza digitale del festival,Intero,da 0 a 10 compresi,"Website (Max 4pt):
+- Sito ufficiale presente: +2pt
+- Sito ufficiale ATTIVO (website_active = 1): +2pt 
+Social (Max 4pt):
+- Instagram dedicato = +2pt
+- Facebook dedicato = +2pt
+Lingue (Max 2pt):
+- Multilingue = +2pt
+- Inglese (su sito attivo o secondario) = +1pt
+- Solo italiano = +0pt","European Commission, Special Eurobarometer 562: Europeans’ attitudes towards culture, (Report No. SP562), Luxembourg, Publications Office of the European Union, 2025b, https://doi.org/10.2766/4514147."
+ORGANIZATION,organizer_type ,Natura giuridica dell'ente organizzatore,Enumerazione,public / private / non_profit / unknown / mixed,"- public: quando l'organizzatore è un ente della Pubblica Amministrazione
+- non_proft: l'organizzatore è associazione culturale, di volontariato, di promozione sociale o fondazione culturale non bancaria
+- private: l'organizzatore è un'entità commerciale
+- mixed: co-organizzazione pubblico/privato
+- unknown: informazione non verificabile","Giorgi L. (a cura di), European Arts Festivals: Cultural Pragmatics and Discursive Identity Frames (Deliverable 3.1, WP3 Main Report, Project EURO-FESTIVAL), European Commission, 2010, https://www.academia.edu/21774168/European_Arts_Festivals_Cultural_Pragmatics_and_Discursive_The_S%C3%B3nar_Festival (ultimo accesso luglio 2026)."
+,has_documented_public_funding,Presenza documentata di finanziamenti pubblici al festival,Booleano,0 / 1 ,"1: vi è evidenza di contributi economici pubblici
+0: assenza di evidenze documentate di contributi economici pubblici","Giorgi L. (a cura di), European Arts Festivals: Cultural Pragmatics and Discursive Identity Frames (Deliverable 3.1, WP3 Main Report, Project EURO-FESTIVAL), European Commission, 2010, https://www.academia.edu/21774168/European_Arts_Festivals_Cultural_Pragmatics_and_Discursive_The_S%C3%B3nar_Festival (ultimo accesso luglio 2026)."
+,has_international_call,Presenza di una open call aperta a partecipanti internazionali,Booleano,0 / 1 ,"1: open call aperta a fotografi di ogni nazionalità 
+0: open call assente oppure riservata a partecipanti italiani","Giorgi L. (a cura di), European Arts Festivals: Cultural Pragmatics and Discursive Identity Frames (Deliverable 3.1, WP3 Main Report, Project EURO-FESTIVAL), European Commission, 2010, https://www.academia.edu/21774168/European_Arts_Festivals_Cultural_Pragmatics_and_Discursive_The_S%C3%B3nar_Festival (ultimo accesso luglio 2026)."
+,has_international_partners,Presenza di partner o sponsor internazionali,Booleano,0 / 1 ,"1: presenza dichiarata di partner, istituzioni, organizzazioni o sponsor internazionali.
+0: non sono dichiarati partner o sponsor internazionali, solo italiani","Giorgi L. (a cura di), European Arts Festivals: Cultural Pragmatics and Discursive Identity Frames (Deliverable 3.1, WP3 Main Report, Project EURO-FESTIVAL), European Commission, 2010, https://www.academia.edu/21774168/European_Arts_Festivals_Cultural_Pragmatics_and_Discursive_The_S%C3%B3nar_Festival (ultimo accesso luglio 2026)."
+CULTURAL DOMAINS,has_photography,Presenza del dominio culturale fotografia nel programma del festival,Booleano,0 / 1,"1 = il programma include attività fotografiche (es. mostre, installazioni, workshop, concorsi, portfolio review, incontri con fotografi o altre attività in cui la fotografia costituisce il tema centrale).
+
+0 = la fotografia è presente esclusivamente come documentazione, comunicazione o materiale promozionale, senza una programmazione fotografica.","Bína V., Chantepie P., Deroin V., Frank G., Kommel K., Kotýnek J., Robin P., ESSnet-Culture: European Statistical System Network on Culture. Final Report, Luxembourg, Ministry of Culture / European Commission (Eurostat), 2012."
+,has_other_visual_arts,Presenza di arti visive diverse dalla fotografia nel programma del festival,Booleano,0 / 1,"1 = il programma include almeno un'altra disciplina delle arti visive oltre alla fotografia (es. pittura, scultura, installazione, arte contemporanea, graphic design, illustrazione, incisione).
+
+0 = il programma comprende esclusivamente fotografia oppure elementi espositivi privi di una componente artistica autonoma.
+
+La fotografia è codificata separatamente tramite has_photography.","Bína V., Chantepie P., Deroin V., Frank G., Kommel K., Kotýnek J., Robin P., ESSnet-Culture: European Statistical System Network on Culture. Final Report, Luxembourg, Ministry of Culture / European Commission (Eurostat), 2012."
+,has_books_press,Presenza di attività editoriali nel programma del festival,Booleano,0 / 1,"1 = il programma include attività editoriali (es. presentazioni di libri, photobook, book fair, editoria indipendente, incontri con editori, premi dedicati ai libri fotografici).
+
+0 = sono presenti esclusivamente cataloghi del festival, bookshop, materiali informativi o merchandising.","Bína V., Chantepie P., Deroin V., Frank G., Kommel K., Kotýnek J., Robin P., ESSnet-Culture: European Statistical System Network on Culture. Final Report, Luxembourg, Ministry of Culture / European Commission (Eurostat), 2012."
+CULTURAL DOMAINS,has_architecture_design,Presenza del dominio culturale architettura e design nel programma del festival,Booleano,0 / 1,"1 = il programma include attività dedicate ad architettura o design (es. mostre, workshop, conferenze, sezioni tematiche o partnership con istituzioni del settore).
+
+0 = architettura o design costituiscono esclusivamente il contesto fisico o il soggetto di alcune fotografie, senza rappresentare un tema del programma.","Bína V., Chantepie P., Deroin V., Frank G., Kommel K., Kotýnek J., Robin P., ESSnet-Culture: European Statistical System Network on Culture. Final Report, Luxembourg, Ministry of Culture / European Commission (Eurostat), 2012."
+,has_performing_arts,Presenza di arti performative nel programma del festival,Booleano,0 / 1,"1 = il programma include attività performative (es. teatro, danza, performance artistiche, musica dal vivo o performance interdisciplinari).
+
+0 = sono presenti esclusivamente accompagnamenti musicali, DJ set, eventi sociali o conferenze.","Bína V., Chantepie P., Deroin V., Frank G., Kommel K., Kotýnek J., Robin P., ESSnet-Culture: European Statistical System Network on Culture. Final Report, Luxembourg, Ministry of Culture / European Commission (Eurostat), 2012."
+,has_audiovisual_multimedia,Presenza di attività appartenenti al dominio audiovisivo e multimediale nel programma del festival,Booleano,0 / 1,"1 = il programma include contenuti audiovisivi o multimediali (es. cinema, documentari, videoarte, videoinstallazioni, opere multimediali, installazioni sonore, VR/AR, podcast).
+
+0 = gli strumenti audiovisivi sono utilizzati esclusivamente come supporto tecnico o promozionale.","Bína V., Chantepie P., Deroin V., Frank G., Kommel K., Kotýnek J., Robin P., ESSnet-Culture: European Statistical System Network on Culture. Final Report, Luxembourg, Ministry of Culture / European Commission (Eurostat), 2012."
+"ACCESSIBILITY & 
+SUSTAINABILITY",venue_type ,Tipologia degli spazi che ospitano il festival,Enumerazione,museum_gallery / cultural_space / historic_site / public_space / mixed / unknown,"- museum_gallery: musei, gallerie d’arte, pinacoteche e spazi espositivi dedicati alla conservazione o esposizione artistica.
+- cultural_space: spazi culturali polifunzionali, hub creativi, centri culturali o sedi dedicate ad attività artistiche.
+- historic_site: luoghi di interesse storico o patrimoniale, quali castelli, palazzi storici, siti archeologici o complessi monumentali.
+- public_space: spazi pubblici aperti o urbani, quali piazze, strade, parchi o giardini.
+- mixed: presenza di più tipologie di spazi senza una categoria prevalente.
+- unknown: tipologia dello spazio non determinabile dalle fonti disponibili.
+
+La classificazione considera la funzione prevalente dello spazio ospitante e non esclusivamente le caratteristiche architettoniche.","Alberti V., Cocco C., Consoli S., Montalto V., Panella F., Ontology Engineering to Model the European Cultural Heritage: The Case of Cultural Gems, in Yang X.-S., Sherratt R. S., Dey N., Joshi A. (a cura di), Proceedings of Eighth International Congress on Information and Communication Technology, vol. 696, Singapore, Springer Singapore, 2024, pp. 1–10, https://doi.org/10.1007/978-981-99-3236-8_1."
+,ticket_policy ,Modalità di accesso economico al festival,Enumerazione,free / paid / mixed / unknown,"- free: tutte le attività sono ad accesso libero e gratuito
+- paid: per accedere al corpo principale delle mostre è necessario acquistare un biglietto o un pass
+- mixed: combinazione di contenuti gratuiti e a pagamento","European Commission, Special Eurobarometer 562: Europeans’ attitudes towards culture, (Report No. SP562), Luxembourg, Publications Office of the European Union, 2025b, https://doi.org/10.2766/4514147. "
+,sustainability_claim ,Presenza di dichiarazioni esplicite sull'impegno ambientale del festival,Booleano,0 / 1  ,"Attribuire valore 1 solo in presenza di dichiarazioni esplicite relative alla sostenibilità ambientale (es. cambiamento climatico, biodiversità, economia circolare, mobilità sostenibile, Agenda 2030 - SDGs ambientali).","YOUROPE – The European Festival Association, ILMC, European Festival Report 2025, Drury J. (a cura di), IQ Magazine, 2026, https://yourope.org/know-how/european-festival-report-2025-out-now/ (ultimo accesso luglio 2026)."
+METADATA,notes,Annotazioni qualitative e informazioni aggiuntive sul record,Stringa,Testo libero,"Inserire informazioni rilevanti non rappresentabili tramite variabili strutturate, ad esempio:
+
+- sedi secondarie;
+- carattere itinerante del festival;
+- cambiamenti organizzativi;
+- informazioni ambigue o non verificabili;
+- eccezioni metodologiche.",-
+,record_last_updated,Data dell'ultima revisione del record,Data,Data nel formato ISO 8601: YYYY-MM-DD,Indicare la data dell'ultimo controllo o aggiornamento significativo del record.,-
