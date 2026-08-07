@@ -27,7 +27,7 @@ Il progetto si articola in tre output fondamentali:
    * Accessibile in tempo reale via Google Sheets o mediante esportazione diretta dinamica `.csv` e `.xlsx`.
 3. **`pipeline_ia/` (Prototipo AI per l'Estrazione Dati):**
    * Notebook in Python (Jupyter / Google Colab) per l'automatizzazione intelligente dell'estrazione e normalizzazione di dati culturali non strutturati dal web.
-   * Sperimentazione di modelli LLM/NLP (es. *Flan T5-Large*) con approcci *Zero-Shot* e *Few-Shot + Sliding Window*, integrati in un workflow *Human-in-the-Loop*.
+   * Sperimentazione di un LLM integrato in un workflow *Human-in-the-Loop*.
 
 ---
 
