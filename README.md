@@ -65,7 +65,7 @@ The project delivers three main integrated components:
 * 🌐 **[Esplora il Dataset Live su Google Sheets / Live Interactive Sheet](https://docs.google.com/spreadsheets/d/1Mqnbuf3mBJQ5Z3N5Tah1VuAr0akWJmj9OtJMr6WqqB4/edit?gid=822136368#gid=822136368)**
 * 📥 **[Scarica il Dataset Live (.CSV) / Direct CSV Export](https://docs.google.com/spreadsheets/d/1Mqnbuf3mBJQ5Z3N5Tah1VuAr0akWJmj9OtJMr6WqqB4/export?format=csv&gid=822136368)**
 * 📥 **[Scarica il Dataset Live (.XLSX) / Direct Excel Export](https://docs.google.com/spreadsheets/d/1Mqnbuf3mBJQ5Z3N5Tah1VuAr0akWJmj9OtJMr6WqqB4/export?format=xlsx&gid=822136368)**
-* 🛠️ **[Apri il Notebook IA su Google Colab / Open AI Pipeline](./pipeline_ia/)**
+* 🛠️ **[Apri il Notebook IA su Google Colab / Open AI Pipeline]([./pipeline_ia/](https://github.com/annagiacometti/cultural-data-framework-photography-festivals/blob/6d7fc3838aaf2765b5cb122416724e9232f99503/pipeline_ia/proof_of_concept_pipeline.ipynb))**
 
 ---
 
