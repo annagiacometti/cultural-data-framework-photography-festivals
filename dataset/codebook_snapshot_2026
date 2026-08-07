@@ -14,11 +14,13 @@ TIME,first_edition_year,Anno della prima edizione del festival,Intero ,anno / un
 ,duration_days ,"Durata dell'edizione più recente del festival, espressa in giorni",Intero,numero / unknown,"Si contano sia il giorno d'inizio che quello di fine (data fine - data inizio + 1)
 - Se il festival prevede un evento inaugurale seguito da mostre aperte al pubblico, considerare l'intero periodo di apertura
 - Vengono contati i giorni di durata dell'edizione più recente
-- unknown: se non vi sono date precise","YOUROPE – The European Festival Association, ILMC, European Festival Report 2025, Drury J. (a cura di), IQ Magazine, 2026, https://yourope.org/know-how/european-festival-report-2025-out-now/ (ultimo accesso luglio 2026)."
+- unknown: se non vi sono date precise","YOUROPE – The European Festival Association, ILMC, European Festival Report 2025, Drury J. (a cura di), IQ Magazine, 2026, https://yourope.org/know-how/european-festival-report-2025-out-now/ (ultimo accesso luglio 2026).
+"
 ,recurrence ,Periodicità della manifestazione,Enumerazione,annual / biennial / mixed / unknown,"- annual: il festival si svolge regolarmente ogni anno
 - biennial: il festival si svolge regolarmente ogni due anni
 - mixed: il festival ha cambiato cadenza nel tempo
-- unknown: non vi sono sufficienti informazioni","YOUROPE – The European Festival Association, ILMC, European Festival Report 2025, Drury J. (a cura di), IQ Magazine, 2026, https://yourope.org/know-how/european-festival-report-2025-out-now/ (ultimo accesso luglio 2026)."
+- unknown: non vi sono sufficienti informazioni","YOUROPE – The European Festival Association, ILMC, European Festival Report 2025, Drury J. (a cura di), IQ Magazine, 2026, https://yourope.org/know-how/european-festival-report-2025-out-now/ (ultimo accesso luglio 2026).
+"
 "DIGITAL
  PRESENCE",website_official,"URL del sito web ufficiale del festival, se disponibile",Stringa ,URL / null,Inserire esclusivamente il sito web ufficiale della manifestazione.,"European Commission, Creative Europe 2021-2022: Monitoring report, Luxembourg, Publications Office of the European Union, 2023, https://doi.org/10.2759/561008."
 ,website_secondary,URL di una fonte web secondaria di riferimento,Stringa,URL / null,Compilare solo in assenza di un sito web ufficiale.,"European Commission, Creative Europe 2021-2022: Monitoring report, Luxembourg, Publications Office of the European Union, 2023, https://doi.org/10.2759/561008."
