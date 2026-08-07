@@ -55,7 +55,7 @@ The project delivers three main integrated components:
    * Accessible live via Google Sheets or via direct dynamic `.csv` / `.xlsx` exports.
 3. **`pipeline_ia/` (AI Pipeline for Data Extraction):**
    * Executable Python Notebooks (Jupyter / Google Colab) demonstrating AI-assisted automated extraction and normalization of unstructured web content.
-   * Features experiments with LLMs (e.g., *Flan T5-Large*) using *Zero-Shot* and *Few-Shot + Sliding Window* strategies within a *Human-in-the-Loop* validation design.
+   * Features experiments with a LLM within a *Human-in-the-Loop* validation design.
 
 ---
 
