@@ -13,9 +13,14 @@ Venezia Photo ,festival_name,Venezia Photo ,Venezia Photo ,1,,,https://veneziaph
 ,city_name,Venezia,Venezia,1,,,https://veneziaphoto.org/it
 ,first_edition_year,2011,2018,0,Selezione temporale,"Il modello ha estratto una data presente nel contenuto relativo alla storia degli autori invece dell'anno di nascita del festival, esplicitato nella pagina informativa.",https://veneziaphoto.org/it/pages/infos
 ,organizer_type,Non-profit,mixed,0,Classificazione semantica,Il modello ha riconosciuto la presenza dell'associazione ADAP ma non ha integrato correttamente la presenza congiunta di soggetti pubblici/privati (es. San Servolo srl).,https://veneziaphoto.org/it/pages/infos
-,ticket_policy,Mixed,paid,0,Ambiguità della fonte,"Il modello ha interpretato la presenza contemporanea di contenuti gratuiti e prodotti/workshop acquistabili come accesso misto, mentre la struttura del festival prevedeva solo attività a pagamento.","https://veneziaphoto.org/it/pages/infos#faq "
-Milano Centrale Festival,festival_name,Milano Centrale Festival,Milano Centrale Festival,1,,,"https://www.centralefestival.com/milano2026.html"
-,city_name,Milano,Milano,1,,,"https://www.centralefestival.com/milano2026.html"
+,ticket_policy,Mixed,paid,0,Ambiguità della fonte,"Il modello ha interpretato la presenza contemporanea di contenuti gratuiti e prodotti/workshop acquistabili come accesso misto, mentre la struttura del festival prevedeva solo attività a pagamento.","https://veneziaphoto.org/it/pages/infos#faq 
+"
+Milano Centrale Festival,festival_name,Milano Centrale Festival,Milano Centrale Festival,1,,,"https://www.centralefestival.com/milano2026.html
+"
+,city_name,Milano,Milano,1,,,"https://www.centralefestival.com/milano2026.html
+"
 ,first_edition_year,2023,2023,1,,,https://www.centralefestival.com/about.html
-,organizer_type,Non-profit,private,0,Classificazione semantica,"Il modello ha classificato come organizzatore l'Associazione Centrale Fotografia, citata nella pagina come realtà in collaborazione, mentre il festival è promosso da Chippendale Studio","https://www.centralefestival.com/milano2026.html"
-,ticket_policy,Free,Free,1,,,"https://www.centralefestival.com/milano2026.html"
+,organizer_type,Non-profit,private,0,Classificazione semantica,"Il modello ha classificato come organizzatore l'Associazione Centrale Fotografia, citata nella pagina come realtà in collaborazione, mentre il festival è promosso da Chippendale Studio","https://www.centralefestival.com/milano2026.html
+"
+,ticket_policy,Free,Free,1,,,"https://www.centralefestival.com/milano2026.html
+"
