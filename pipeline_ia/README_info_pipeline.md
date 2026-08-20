@@ -1,36 +1,33 @@
-# Pipeline IA per la strutturazione dei dati
+# Pipeline IA
 
-Questa repository contiene la sperimentazione di una pipeline basata su **intelligenza artificiale generativa** per supportare la trasformazione di informazioni culturali non strutturate in dati coerenti con il modello definito nel *framework* metodologico della ricerca.
+Questa repository contiene la *proof of concept* della pipeline sviluppata per sperimentare la strutturazione semi-automatica di informazioni culturali non strutturate attraverso strumenti di intelligenza artificiale.
+
+La pipeline è stata implementata in **Python**, all'interno di **Google Colab**, e utilizza **Flan-T5 Large**, modello linguistico open source basato sull'architettura T5 e ottimizzato mediante *instruction tuning*.
 
 ## Obiettivo
 
-La sperimentazione verifica la possibilità di utilizzare un modello linguistico per estrarre e classificare informazioni relative ai festival fotografici a partire da fonti testuali, riconducendole alle variabili e alle categorie definite nel **codebook**.
+La sperimentazione non mira a sostituire la costruzione manuale del dataset né a valutare le prestazioni assolute del modello linguistico. L'obiettivo è verificare se il *framework* metodologico, il modello dati e il *codebook* definiti nella ricerca possano essere trasferiti a una procedura di estrazione e strutturazione semi-automatica.
 
-L'IA viene quindi utilizzata come **strumento di supporto alla strutturazione del dato**, e non come sostituto della progettazione metodologica o della validazione umana.
+Il modello linguistico opera quindi all'interno di uno **schema-guided approach**: le informazioni vengono estratte dal testo e ricondotte alle variabili e alle categorie precedentemente definite nel *codebook*.
 
-## Modello utilizzato
+## Pipeline
 
-La pipeline è stata sperimentata utilizzando **[INSERIRE MODELLO ESATTO]**.
+Il processo sperimentale comprende:
 
-Il modello riceve come input le informazioni testuali relative a un festival e le istruzioni necessarie per ricondurle allo schema di dati definito.
+1. **Acquisizione controllata delle fonti** — gli URL pertinenti vengono individuati sulla base delle variabili previste dal *codebook*.
+2. **Pre-processing** — le pagine web vengono trasformate in testo attraverso operazioni di pulizia e normalizzazione.
+3. **Sliding window** — i testi più lunghi vengono suddivisi in porzioni compatibili con i limiti di elaborazione del modello.
+4. **Information Extraction** — Flan-T5 Large riceve un *prompt* strutturato contenente il contesto della ricerca, le variabili da estrarre e i valori ammessi per le variabili categoriali.
+5. **Normalizzazione e strutturazione** — gli output del modello vengono convertiti in *record* coerenti con il modello dati.
+6. **Data enrichment geografico** — le informazioni relative alla località vengono collegate a vocabolari e classificazioni territoriali, tra cui ISTAT e NUTS 2024.
+7. **Human-in-the-Loop** — gli output vengono confrontati con il dataset costruito manualmente e sottoposti a verifica e correzione umana.
 
-## Processo
+## Risultato della sperimentazione
 
-La pipeline segue, in forma semplificata, queste fasi:
+La *proof of concept* ha mostrato che l'IA può supportare l'estrazione e la strutturazione di informazioni culturali, soprattutto per attributi esplicitamente presenti nelle fonti. Le maggiori criticità emergono invece quando le variabili richiedono interpretazione contestuale, classificazione semantica o informazioni distribuite tra più fonti.
 
-1. acquisizione delle informazioni testuali relative al festival;
-2. preparazione dell'input secondo lo schema definito;
-3. invio delle informazioni al modello linguistico tramite prompt strutturato;
-4. estrazione e classificazione delle informazioni secondo le variabili del *framework*;
-5. produzione dell'output strutturato;
-6. verifica manuale dei risultati ottenuti.
+La pipeline va quindi interpretata come **strumento di supporto alla strutturazione del dato**, non come sistema autonomo di catalogazione. La qualità dell'output dipende dall'interazione tra modello linguistico, schema dati, *prompt*, procedure di normalizzazione e supervisione umana.
 
-## Output
+Il notebook principale della sperimentazione è:
 
-L'output della pipeline consiste in dati strutturati secondo le variabili e le categorie definite nel *codebook*, rendendo possibile il successivo confronto con il dataset costruito manualmente.
-
-La sperimentazione ha mostrato il potenziale dell'IA nel supportare alcune operazioni ripetitive di **estrazione, classificazione e normalizzazione**, evidenziando al tempo stesso la necessità di mantenere un controllo umano sui risultati, soprattutto in presenza di informazioni incomplete, ambigue o contraddittorie.
-
-## Nota metodologica
-
-La pipeline costituisce una **sperimentazione** e non un sistema di automazione completamente validato. I risultati devono pertanto essere interpretati nel contesto del caso di studio e delle condizioni specifiche in cui la sperimentazione è stata condotta.
+`proof_of_concept_pipeline.ipynb`
