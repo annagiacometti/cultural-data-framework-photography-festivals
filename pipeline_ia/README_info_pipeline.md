@@ -4,7 +4,7 @@ Questa repository contiene la *proof of concept* della pipeline sviluppata per s
 
 La pipeline è stata implementata in **Python**, all'interno di **Google Colab**, e utilizza **Flan-T5 Large**, modello linguistico open source basato sull'architettura T5 e ottimizzato mediante *instruction tuning*.
 
-![Uploading Figura R.png…]()
+<img width="1440" height="1080" alt="Figura R" src="https://github.com/user-attachments/assets/66dda4c3-f866-4db8-aa0c-256c616435f1" />
 
 
 ## Obiettivo
