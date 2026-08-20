@@ -4,6 +4,9 @@ Questa repository contiene la *proof of concept* della pipeline sviluppata per s
 
 La pipeline è stata implementata in **Python**, all'interno di **Google Colab**, e utilizza **Flan-T5 Large**, modello linguistico open source basato sull'architettura T5 e ottimizzato mediante *instruction tuning*.
 
+![Uploading Figura R.png…]()
+
+
 ## Obiettivo
 
 La sperimentazione non mira a sostituire la costruzione manuale del dataset né a valutare le prestazioni assolute del modello linguistico. L'obiettivo è verificare se il *framework* metodologico, il modello dati e il *codebook* definiti nella ricerca possano essere trasferiti a una procedura di estrazione e strutturazione semi-automatica.
