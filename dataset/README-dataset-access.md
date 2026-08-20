@@ -19,8 +19,6 @@ Il dataset è attualmente in fase di popolamento, standardizzazione e validazion
 * **📥 Esportazione Diretta in Excel (Dati Live):** 
   [Scarica Excel Aggiornato (.xlsx)](https://docs.google.com/spreadsheets/d/1Mqnbuf3mBJQ5Z3N5Tah1VuAr0akWJmj9OtJMr6WqqB4/export?format=xlsx&gid=822136368) (Scarica istantaneamente l'ultima versione del foglio in formato `.xlsx`).
 
-*Nota: Una volta completata e congelata la raccolta dati, la versione statica (gold-standard) del dataset sarà salvata in modo permanente come file CSV e Excel all'interno della cartella `dataset/` di questa repository.*
-
 ---
 
 ### EN 
@@ -40,4 +38,3 @@ The dataset is currently being populated, standardized, and validated in real-ti
 * **📥 Direct Excel Export (Live Data):** 
   [Download Live Excel (.xlsx)](https://docs.google.com/spreadsheets/d/1Mqnbuf3mBJQ5Z3N5Tah1VuAr0akWJmj9OtJMr6WqqB4/export?format=xlsx&gid=822136368) (Instantly downloads the most up-to-date version of the sheet as an `.xlsx` file).
 
-*Note: Once the data collection is fully finalized and frozen, the static gold-standard version of the dataset will be permanently stored as a CSV and Excel file inside the `dataset/` directory of this repository.*
