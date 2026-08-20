@@ -3,10 +3,7 @@
 Questa repository contiene la *proof of concept* della pipeline sviluppata per sperimentare la strutturazione semi-automatica di informazioni culturali non strutturate attraverso strumenti di intelligenza artificiale.
 
 La pipeline è stata implementata in **Python**, all'interno di **Google Colab**, e utilizza **Flan-T5 Large**, modello linguistico open source basato sull'architettura T5 e ottimizzato mediante *instruction tuning*.
-
 <img width="1440" height="1080" alt="Figura R" src="https://github.com/user-attachments/assets/66dda4c3-f866-4db8-aa0c-256c616435f1" />
-
-
 ## Obiettivo
 
 La sperimentazione non mira a sostituire la costruzione manuale del dataset né a valutare le prestazioni assolute del modello linguistico. L'obiettivo è verificare se il *framework* metodologico, il modello dati e il *codebook* definiti nella ricerca possano essere trasferiti a una procedura di estrazione e strutturazione semi-automatica.
