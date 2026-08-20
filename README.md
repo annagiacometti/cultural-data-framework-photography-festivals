@@ -61,7 +61,7 @@ The project delivers three main integrated components:
 
 ## Link Rapidi e Accesso ai Dati / Quick Links
 
-* 📖 **[Leggi il Codebook / Read the Codebook](https://github.com/annagiacometti/cultural-data-framework-photography-festivals/blob/5a93e982f385b03bdb97fe0b97575840543889e3/dataset/Codebook.md)**
+* 📖 **[Consulta il Codebook / Read the Codebook](https://github.com/annagiacometti/cultural-data-framework-photography-festivals/blob/main/dataset/codebook_snapshot_2026.csv)**
 * 🌐 **[Esplora il Dataset Live su Google Sheets / Live Interactive Sheet](https://docs.google.com/spreadsheets/d/1Mqnbuf3mBJQ5Z3N5Tah1VuAr0akWJmj9OtJMr6WqqB4/edit?gid=822136368#gid=822136368)**
 * 📥 **[Scarica il Dataset Live (.CSV) / Direct CSV Export](https://docs.google.com/spreadsheets/d/1Mqnbuf3mBJQ5Z3N5Tah1VuAr0akWJmj9OtJMr6WqqB4/export?format=csv&gid=822136368)**
 * 📥 **[Scarica il Dataset Live (.XLSX) / Direct Excel Export](https://docs.google.com/spreadsheets/d/1Mqnbuf3mBJQ5Z3N5Tah1VuAr0akWJmj9OtJMr6WqqB4/export?format=xlsx&gid=822136368)**
