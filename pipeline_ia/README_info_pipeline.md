@@ -30,4 +30,4 @@ La pipeline va quindi interpretata come **strumento di supporto alla strutturazi
 
 Il notebook principale della sperimentazione è:
 
-`proof_of_concept_pipeline.ipynb`
+`[proof_of_concept_pipeline.ipynb](https://github.com/annagiacometti/cultural-data-framework-photography-festivals/blob/main/pipeline_ia/proof_of_concept_pipeline.ipynb)`
