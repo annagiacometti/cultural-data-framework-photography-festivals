@@ -1,0 +1,21 @@
+Festival,Variabile,Output LLM,Valore corretto,Corretto?,Categoria di errore,Note errore,Fonte verifica
+Fotografia Calabria Festival,festival_name,Fotografia Calabria Festival,Fotografia Calabria Festival,1,,,https://www.fotografiacalabriafestival.it/ 
+,city_name,San Lucido,San Lucido,1,,,https://www.fotografiacalabriafestival.it/ 
+,first_edition_year,2022,2022,1,,,https://www.fotografiacalabriafestival.it/ita/chi-siamo
+,organizer_type,Non-profit,Non-profit,1,,,https://www.fotografiacalabriafestival.it/ita/chi-siamo
+,ticket_policy,Mixed,Mixed,1,,,https://www.fotografiacalabriafestival.it/ita/programma
+Fotografia Europea,festival_name,Fotografia Europea,Fotografia Europea,1,,,https://www.fotografiaeuropea.it/
+,city_name,Reggio Emilia,Reggio Emilia,1,,,https://www.fotografiaeuropea.it/chi-siamo/
+,first_edition_year,2027,2006,0,Selezione temporale,"Il modello ha associato l'anno della futura edizione/evento corrente all'anno di nascita del festival. La pagina homepage contiene riferimenti temporali recenti che hanno prevalso sull'informazione storica presente nella pagina ""Chi siamo"".",https://www.fotografiaeuropea.it/chi-siamo/
+,organizer_type,Non-profit,mixed,0,Classificazione semantica,"Il modello ha identificato correttamente la presenza di Fondazione Palazzo Magnani, ma non ha distinto tra soggetti coinvolti nell'organizzazione. Il festival è promosso da Fondazione Palazzo Magnani e Comune di Reggio Emilia, generando ambiguità nella classificazione della natura organizzativa.",https://www.fotografiaeuropea.it/chi-siamo/
+,ticket_policy,Free,mixed,0,Ambiguità della fonte,"Il modello ha interpretato la presenza di eventi gratuiti come indicatore dell'intero festival, senza considerare che il sistema di accesso comprende anche attività a pagamento.",https://www.fotografiaeuropea.it/biglietti/
+Venezia Photo ,festival_name,Venezia Photo ,Venezia Photo ,1,,,https://veneziaphoto.org/it
+,city_name,Venezia,Venezia,1,,,https://veneziaphoto.org/it
+,first_edition_year,2011,2018,0,Selezione temporale,"Il modello ha estratto una data presente nel contenuto relativo alla storia degli autori invece dell'anno di nascita del festival, esplicitato nella pagina informativa.",https://veneziaphoto.org/it/pages/infos
+,organizer_type,Non-profit,mixed,0,Classificazione semantica,Il modello ha riconosciuto la presenza dell'associazione ADAP ma non ha integrato correttamente la presenza congiunta di soggetti pubblici/privati (es. San Servolo srl).,https://veneziaphoto.org/it/pages/infos
+,ticket_policy,Mixed,paid,0,Ambiguità della fonte,"Il modello ha interpretato la presenza contemporanea di contenuti gratuiti e prodotti/workshop acquistabili come accesso misto, mentre la struttura del festival prevedeva solo attività a pagamento.","https://veneziaphoto.org/it/pages/infos#faq "
+Milano Centrale Festival,festival_name,Milano Centrale Festival,Milano Centrale Festival,1,,,"https://www.centralefestival.com/milano2026.html"
+,city_name,Milano,Milano,1,,,"https://www.centralefestival.com/milano2026.html"
+,first_edition_year,2023,2023,1,,,https://www.centralefestival.com/about.html
+,organizer_type,Non-profit,private,0,Classificazione semantica,"Il modello ha classificato come organizzatore l'Associazione Centrale Fotografia, citata nella pagina come realtà in collaborazione, mentre il festival è promosso da Chippendale Studio","https://www.centralefestival.com/milano2026.html"
+,ticket_policy,Free,Free,1,,,"https://www.centralefestival.com/milano2026.html"
