@@ -25,7 +25,7 @@ Il progetto si articola in tre output fondamentali:
    * Mappatura censuaria e storicizzata applicata ai festival fotografici italiani attivi, inattivi o conclusi (*defunct*).
    * Focus primario: festival con la fotografia come tema centrale e prevalente della programmazione.
    * Accessibile in tempo reale via Google Sheets o mediante esportazione diretta dinamica `.csv` e `.xlsx`.
-3. **`pipeline_ia/` (Prototipo AI per l'Estrazione Dati):**
+3. **`pipeline_ia/` (Prototipo AI per Estrazione e Strutturazione Dati):**
    * Notebook in Python (Jupyter / Google Colab) per l'automatizzazione intelligente dell'estrazione e normalizzazione di dati culturali non strutturati dal web.
    * Sperimentazione di un LLM integrato in un workflow *Human-in-the-Loop*.
 
