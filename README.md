@@ -22,7 +22,7 @@ Il progetto si articola in tre output fondamentali:
    * Schema metodologico e dizionario dei dati sviluppato a partire dalle direttive europee per i beni culturali.
    * Definisce le classi logiche, le regole di codifica, le tipologie di variabili e i vincoli di validazione dei dati.
   
-<img width="1440" height="1080" alt="Figura Q - a cura dell&#39;autore" src="https://github.com/user-attachments/assets/4255cb78-26f6-4c00-88a6-c5c0464f5288" />
+<img width="1440" height="836" alt="Figura Q - a cura dell&#39;autore" src="https://github.com/user-attachments/assets/92dba229-79d4-448f-83e2-a24bb2fe0c5e" />
 
 2. **`dataset/` (Dataset dei Festival Fotografici Italiani):**
    * Mappatura censuaria e storicizzata applicata ai festival fotografici italiani attivi, inattivi o conclusi (*defunct*).
