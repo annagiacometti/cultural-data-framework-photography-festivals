@@ -8,7 +8,7 @@ Il dataset propone una mappatura censuaria e storicizzata dei festival fotografi
 
 * **Stato di attività:** La raccolta comprende non solo gli eventi attualmente **attivi**, ma anche quelli **inattivi, temporaneamente interrotti o definitivamente chiusi (defunct)**. Questo permette di analizzare la longevità, i tassi di sopravvivenza e l'evoluzione storica del settore.
 * **Il criterio della Fotografia:** Il criterio di inclusione fondamentale stabilisce che il festival debba avere come tema la fotografia, sia esso **principale o secondario**. 
-* **Multidisciplinarietà:** Questa scelta metodologica è supportata dalla letteratura scientifica di settore, la quale evidenzia come la maggior parte dei festival fotografici contemporanei sia caratterizzata da una forte **multidisciplinarietà e trasversalità**. Molti eventi integrano la fotografia con altre arti visive, installazioni multimediali o discipline performative; escludere tali realtà avrebbe compromesso la rappresentatività e la ricchezza del dataset.
+* **Multidisciplinarità:** Questa scelta metodologica è supportata dalla letteratura scientifica di settore, la quale evidenzia come la maggior parte dei festival fotografici contemporanei sia caratterizzata da una forte **multidisciplinarità e trasversalità**. Molti eventi integrano la fotografia con altre arti visive, installazioni multimediali o discipline performative; escludere tali realtà avrebbe compromesso la rappresentatività e la ricchezza del dataset.
 
 Il dataset è attualmente in fase di popolamento, standardizzazione e validazione manuale. È possibile accedere ai dati in tempo reale attraverso le seguenti opzioni:
 
